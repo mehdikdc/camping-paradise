@@ -1,12 +1,16 @@
 <?php
 
-	if {
-		(!isset($_GET['id']))
-		return call('pages', 'error');
+// Home
+include '../config.php';
+
+
+	if (!isset($_GET['id'])) {
+		require_once('views/error.php');
+	} else {
+		
+
+	$annonce = $annonces[$_GET['id']];
+	require_once('views/annonce.php');
+
 	}
-
-	$annonce = Annonces::find($_GET['id']);
-	require_once('views/show.php');
-
-
 ?>
