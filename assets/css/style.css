@@ -1,0 +1,54 @@
+			#header{
+				width: 1250px;
+				display: inline-block;
+				background-color: #123456;
+				text-align: center;
+				color: #ffffff;
+				font-family: Homestead;
+			}
+			
+			#footer{	
+				margin-top: 20px;
+				width: 1250px;
+				display: inline-block;
+				background-color: #123456;
+				text-align: center;
+				color: #ffffff;
+				font-family: Homestead;
+
+			}
+			nav{
+				width: 300px;
+				display: block;
+				font-family: Caviar Dreams;
+				text-align: center;
+				}	
+
+			nav li{
+				float: left;
+
+			}	
+
+			#content {
+				width: 1200px;
+				display: inline-block;
+				border: 1px solid #123456;
+				padding: 15px;
+				font-family: Caviar Dreams;
+				text-align: center;
+			}
+
+			#formulaire{
+				margin-top: 20px;
+			}
+
+			h1 {
+				font-family: Caviar Dreams;
+				font-size: 25px;
+				text-align: center;
+			}
+
+			h2 {
+				font-family: Caviar Dreams;
+				font-size: 25px;
+			}
