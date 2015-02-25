@@ -1,2 +1,4 @@
-<h1><?php echo $annonce['titre'];?></h1>
-<img src="" />
+<?php require '../controller/home.php';
+
+<h1><?php echo $annonces['titre'];?></h1>
+
